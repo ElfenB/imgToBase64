@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
+    </head>
+
+    <body>
+        <div id="content">
+            <h1>Transform Image to BASE64</h1>
+            <input id="myinput" type="file" onchange="encode(this);" />
+            <p id="output-string">Output:</p>
+            <input
+                type="text"
+                name="output"
+                id="output"
+                size="100"
+                placeholder="Output BASE64 String will be here"
+            />
+            <p id="feedback">Select File to start</p>
+        </div>
+    </body>
+</html>
