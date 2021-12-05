@@ -31,3 +31,8 @@ input[type="file"] {
     margin-bottom: 1.3em;
     width: 30vw;
 }
+
+#output-image {
+    border: 1px solid black;
+    width: 30%;
+}
